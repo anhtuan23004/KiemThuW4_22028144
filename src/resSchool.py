@@ -1,12 +1,14 @@
 import unittest
 
 def get_result(diem_chuan, diem_chuyen):
+    result = ""
     if diem_chuan >= 42 and diem_chuyen >= 8.5:
-        return "chuyen 1"
+        result = "chuyen 1"
     elif diem_chuan >= 41 and diem_chuyen >= 8:
-        return "chuyen 2"
+        result = "chuyen 2"
     else:
-        return "chuc ban may man lan sau"
+        result = "chuc ban may man lan sau"
+    return result
 
 
 def main():
